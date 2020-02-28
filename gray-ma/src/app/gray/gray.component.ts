@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { BlueStateStore } from './state/store'
 import { BlueState } from './state/state';
+import { BlueEvent } from './events';
 
 @Component({
   selector: 'app-gray',
