@@ -1,0 +1,33 @@
+<style>
+    .content {
+        padding: 10px;
+    }
+
+    h1 {
+        font-weight: 100;
+        font-size: 32px;
+        margin: 6px 0;
+    }
+
+    p {
+        color: gray;
+        font-style: italic;
+    }
+
+    a {
+        color: #0069AA;
+    }
+</style>
+
+<section>
+    <div class="content">
+        <div class="ma">
+            <span class="title blue no-border">
+                BLUE MICRO APP
+            </span>
+            <span class="event blue">
+                DATA RECEIVED : [ {{ blueValue$ | async }} ]
+            </span>
+        </div>
+    </div>
+</section>
